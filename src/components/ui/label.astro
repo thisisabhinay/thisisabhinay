@@ -2,6 +2,7 @@
 import cx from "classnames";
 
 interface Props {
+  slug: string
   theme: "green" | "blue" | "orange" | "purple" | "pink";
 }
 const color = {
@@ -12,13 +13,14 @@ const color = {
   pink: "text-pink-600",
 };
 
-const { theme } = Astro.props;
+const { theme, slug } = Astro.props;
 ---
 
-<span
+<a
+  href={`/category/${slug}`}
   class={cx(
     "inline-block mt-5 text-xs font-medium tracking-wider uppercase ",
     color[theme] || color["pink"]
   )}>
   <slot />
-</span>
+</a>

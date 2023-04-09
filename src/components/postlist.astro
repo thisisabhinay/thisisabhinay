@@ -48,7 +48,7 @@ const category = categories.find(
   </div>
 
   <a href="#">
-    <Label theme={category.color}>{category.title}</Label>
+    <Label theme={category.color} slug={category.slug}>{category.title}</Label>
   </a>
   <h2
     class="mt-2 text-lg font-semibold tracking-normal text-brand-primary dark:text-white">
@@ -73,7 +73,7 @@ const category = categories.find(
   <div
     class="flex items-center mt-3 space-x-3 text-gray-500 dark:text-gray-400">
     {
-      false ? (
+      false ? ( // disabling author name on post tiles for now
         <>
           <div class="flex items-center gap-3">
             <div class="relative flex-shrink-0 w-5 h-5">
