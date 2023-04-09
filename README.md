@@ -1,4 +1,4 @@
-![](/name.svg)
+![](https://raw.githubusercontent.com/thisisabhinay/thisisabhinay/main/public/name.svg)
 
 ### Hi there 👋, I'm Abhinay 
 
