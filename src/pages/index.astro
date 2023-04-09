@@ -1,7 +1,7 @@
 ---
 import Container from "@components/container.astro";
 import Postlist from "@components/postlist.astro";
-import Layout from "@layouts/Layout.astro";
+import Base from "@layouts/Base.astro";
 import { latestPosts } from "@utils/content";
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 // const posts = (await Astro.glob("./blog/*.{md,mdx}")).sort(
@@ -12,7 +12,7 @@ import { latestPosts } from "@utils/content";
 // console.log(posts[0].frontmatter.image);
 ---
 
-<Layout title="">
+<Base title="">
   <Container>
     <main>
       <div class="grid gap-10 lg:gap-10 md:grid-cols-2">
@@ -33,4 +33,4 @@ import { latestPosts } from "@utils/content";
       </div>
     </main>
   </Container>
-</Layout>
+</Base>

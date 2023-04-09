@@ -1,5 +1,5 @@
 ---
-import Layout from "@layouts/Layout.astro";
+import Base from "@layouts/Base.astro";
 import Container from "@components/container.astro";
 import { Image } from "@astrojs/image/components";
 import { authors } from "@data/authors";
@@ -7,7 +7,7 @@ import Pagetitle from "@components/pagetitle.astro";
 import Link from "@components/ui/link.astro";
 ---
 
-<Layout title="About">
+<Base title="About">
   <Container>
     <Pagetitle>
       <Fragment slot="title">About</Fragment>
@@ -48,4 +48,4 @@ import Link from "@components/ui/link.astro";
       </div>
     </div>
   </Container>
-</Layout>
+</Base>

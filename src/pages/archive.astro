@@ -2,7 +2,7 @@
 import Container from "@components/container.astro";
 import Pagetitle from "@components/pagetitle.astro";
 import Postlist from "@components/postlist.astro";
-import Layout from "@layouts/Layout.astro";
+import Base from "@layouts/Base.astro";
 import { latestPosts } from "@utils/content";
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 // const posts = (await Astro.glob("./blog/*.{md,mdx}")).sort(
@@ -12,7 +12,7 @@ import { latestPosts } from "@utils/content";
 // );
 ---
 
-<Layout title="Archive">
+<Base title="Archive">
   <Container>
     <Pagetitle>
       <Fragment slot="title">Archive</Fragment>
@@ -24,4 +24,4 @@ import { latestPosts } from "@utils/content";
       </div>
     </main>
   </Container>
-</Layout>
+</Base>
