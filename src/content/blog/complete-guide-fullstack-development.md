@@ -4,7 +4,7 @@ excerpt: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis 
 publishDate: "2022-12-28T11:39:36.050Z"
 image: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613"
 category: "design"
-author: "mario-sanchez"
+author: "abhinay"
 tags: [webdev, tailwindcss, frontend]
 ---
 
