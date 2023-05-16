@@ -20,7 +20,7 @@ const category = categories.find(
 <div class="cursor-pointer group">
   <div
     class={cx(
-      "relative overflow-hidden transition-all bg-gray-100 rounded-md dark:bg-gray-800   hover:scale-105",
+      "relative overflow-hidden transition-all bg-white rounded-md dark:bg-gray-800   hover:scale-105",
       aspect === "landscape" ? "aspect-video" : "aspect-square"
     )}>
     <a href={"/blog/" + post.slug}>
@@ -33,7 +33,7 @@ const category = categories.find(
             aspectRatio={aspect === "landscape" ? "16:9" : "1:1"}
             alt="Thumbnail"
             loading={preloadImage ? "eager" : "lazy"}
-            class="w-full h-full rounded-md"
+            class="w-full h-full rounded-3xl"
           />
         ) : (
           <span class="absolute w-16 h-16 text-gray-200 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
