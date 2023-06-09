@@ -1,7 +1,7 @@
 ---
 import Container from "@components/container.astro";
-import logoImage from "@assets/logo.svg";
-import darkLogo from "@assets/logo-dark.svg";
+import logoImage from "@assets/logo.png";
+import darkLogo from "@assets/logo-dark.png";
 import { Image } from "@astrojs/image/components";
 
 interface Menu {
@@ -63,13 +63,10 @@ const mobilemenu: Menu[] = [...leftmenu, ...rightmenu];
       </div>
 
       <div class="flex items-center justify-between w-full md:w-auto">
-        <a class="w-48 dark:hidden" href="/">
-          <Image src={logoImage} alt="Logo" />
-        </a>
-
-        <a class="hidden w-48 dark:block" href="/">
-          <Image src={darkLogo} alt="Logo" />
-        </a>
+        <h1
+          class="brand-font text-4xl tracking-wide text-gray-900 dark:text-white">
+          thisisabhinay
+        </h1>
 
         <button
           id="menu"
@@ -133,3 +130,9 @@ const mobilemenu: Menu[] = [...leftmenu, ...rightmenu];
     });
   });
 </script>
+
+<style>
+  .brand-font {
+    font-family: "Marck Script", cursive;
+  }
+</style>

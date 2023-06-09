@@ -15,20 +15,49 @@ import { latestPosts } from "@utils/content";
 <Base title="">
   <Container>
     <main>
-      <div class="grid gap-10 lg:gap-10 md:grid-cols-2">
+      <div class="grid gap-10 lg:gap-10 md:grid-cols-1">
         {
           latestPosts
-            .slice(0, 2)
+            .slice(0, 1)
             .map((post) => (
               <Postlist post={post} aspect="landscape" preloadImage={true} />
             ))
         }
       </div>
-      <h1 class="text-3xl my-10 font-medium">Web development</h1>
+      <div class="flex items-center justify-between mt-14">
+        <h1
+          class="text-sm uppercase tracking-widest font-medium text-gray-900 dark:text-white">
+          Web development
+        </h1>
+        <a
+          href="#"
+          class="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
+          See All
+        </a>
+      </div>
       <div class="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
         {
           latestPosts
-            .slice(2)
+            .slice(1, 4)
+            .map((post) => <Postlist post={post} aspect="square" />)
+        }
+      </div>
+
+      <div class="flex items-center justify-between mt-14">
+        <h1
+          class="text-sm uppercase tracking-widest font-medium text-gray-900 dark:text-white">
+          Essay
+        </h1>
+        <a
+          href="#"
+          class="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
+          See All
+        </a>
+      </div>
+      <div class="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
+        {
+          latestPosts
+            .slice(4)
             .map((post) => <Postlist post={post} aspect="square" />)
         }
       </div>
