@@ -40,7 +40,9 @@ const category = categories.find(
   <Container>
     <div class="max-w-screen-md mx-auto">
       <div class="text-center">
-        <Label theme={category.color} slug={category.slug}>{category.title}</Label>
+        <Label theme={category.color} slug={category.slug}>
+          {category.title}
+        </Label>
       </div>
 
       <h1
@@ -108,7 +110,7 @@ const category = categories.find(
   <Container>
     <article class="max-w-screen-md mx-auto">
       <div
-        class="mx-auto my-3 prose prose-base dark:prose-invert prose-a:text-blue-600">
+        class="mx-auto my-3 prose prose-base dark:prose-invert prose-a:text-blue-600 first-letter:text-6xl first-letter:font-bold first-letter:mr-4 first-letter:float-left">
         <Content />
 
         <div class="flex flex-wrap items-center w-full gap-3 md:w-auto">
