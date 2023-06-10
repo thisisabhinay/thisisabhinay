@@ -1,6 +1,6 @@
 ---
 import Container from "@components/container.astro";
-import Postlist from "@components/postlist.astro";
+import PostTile from "@components/posttile.astro";
 import CategoryPosts from "@components/categoryposts.astro";
 import ContentBar from "@components/contentbar.astro";
 import Base from "@layouts/Base.astro";
@@ -24,7 +24,7 @@ import { latestPosts } from "@utils/content";
           latestPosts
             .slice(0, 1)
             .map((post) => (
-              <Postlist post={post} aspect="landscape" preloadImage={true} />
+              <PostTile post={post} aspect="landscape" preloadImage={true} />
             ))
         }
       </div>

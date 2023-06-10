@@ -1,5 +1,5 @@
 ---
-import Postlist from "@components/postlist.astro";
+import PostTile from "@components/posttile.astro";
 import { latestPosts } from "@utils/content";
 
 const { class: className, category } = Astro.props;
@@ -26,7 +26,7 @@ const postsList = latestPosts
       </section>
       <div class="grid gap-10 mt-5 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
         {postsList?.map((post) => (
-          <Postlist post={post} aspect="square" />
+          <PostTile post={post} aspect="square" />
         ))}
       </div>
     </>

@@ -1,6 +1,6 @@
 ---
 import Container from "@components/container.astro";
-import Postlist from "@components/postlist.astro";
+import PostTile from "@components/posttile.astro";
 import Base from "@layouts/Base.astro";
 import { latestPosts } from "@utils/content";
 // Use Astro.glob() to fetch all posts, and then sort them by date.
@@ -16,10 +16,7 @@ import { latestPosts } from "@utils/content";
   <Container>
     <main>
       <div class="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
-        {
-          latestPosts
-            .map((post) => <Postlist post={post} aspect="square" />)
-        }
+        {latestPosts.map((post) => <PostTile post={post} aspect="square" />)}
       </div>
     </main>
   </Container>
