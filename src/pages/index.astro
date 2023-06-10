@@ -1,8 +1,10 @@
 ---
 import Container from "@components/container.astro";
 import Postlist from "@components/postlist.astro";
+import CategoryPosts from "@components/categoryposts.astro";
 import ContentBar from "@components/contentbar.astro";
 import Base from "@layouts/Base.astro";
+import { categories } from "@data/category";
 import { latestPosts } from "@utils/content";
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 // const posts = (await Astro.glob("./blog/*.{md,mdx}")).sort(
@@ -26,43 +28,7 @@ import { latestPosts } from "@utils/content";
             ))
         }
       </div>
-      <div class="flex items-center justify-between mt-14">
-        <h1
-          class="text-sm uppercase tracking-widest font-medium text-gray-500 dark:text-white">
-          Web development
-        </h1>
-        <a
-          href="#"
-          class="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
-          See All
-        </a>
-      </div>
-      <div class="grid gap-10 mt-5 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
-        {
-          latestPosts
-            .slice(1, 4)
-            .map((post) => <Postlist post={post} aspect="square" />)
-        }
-      </div>
-
-      <div class="flex items-center justify-between mt-14">
-        <h1
-          class="text-sm uppercase tracking-widest font-medium text-gray-500 dark:text-white">
-          Essay
-        </h1>
-        <a
-          href="#"
-          class="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500">
-          See All
-        </a>
-      </div>
-      <div class="grid gap-10 mt-5 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
-        {
-          latestPosts
-            .slice(4)
-            .map((post) => <Postlist post={post} aspect="square" />)
-        }
-      </div>
+      {categories?.map((category) => <CategoryPosts category={category} />)}
     </main>
   </Container>
 </Base>
