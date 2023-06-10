@@ -6,8 +6,9 @@ const { class: className } = Astro.props;
 ---
 
 <section
+  id="contentbar"
   class:list={[
-    "flex items-center justify-center border-y border-solid border-gray-100 dark:border-gray-800 py-4",
+    "flex items-center justify-center bg-white rounded-xl  dark:border-gray-800 py-4",
     className,
   ]}>
   <div class="flex items-center justify-around w-full">
@@ -23,3 +24,12 @@ const { class: className } = Astro.props;
     }
   </div>
 </section>
+
+<style>
+  #contentbar {
+    --tw-shadow: 0 8px 36px -12px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+</style>
