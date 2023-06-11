@@ -44,11 +44,15 @@ const category = categories.find(
       </div>
 
       <h1
-        class="mt-2 mb-3 text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl dark:text-white">
+        class="mt-2 mb-3 text-3xl font-semibold tracking-tight lg:leading-snug text-brand-primary lg:text-4xl dark:text-white">
         {post.data.title}
       </h1>
+      <h3
+        class="mt-2 mb-6 text-lg lg:leading-normal text-gray-500 lg:text-xl dark:text-white">
+        {post.data.excerpt}
+      </h3>
 
-      <div class="flex justify-center mt-3 space-x-3 text-gray-500">
+      <div class="flex mt-3 mb-8 space-x-3 text-gray-500">
         <div class="flex items-center gap-3">
           <div class="relative flex-shrink-0 w-10 h-10">
             {
@@ -70,15 +74,18 @@ const category = categories.find(
               {author.name}
             </p>
             <div class="flex items-center space-x-2 text-sm">
+              <span>
+                {Math.round(remarkPluginFrontmatter?.estReadingTime) || "5"} min
+                read
+              </span>
+              <span>&middot;</span>
               <time
                 class="text-gray-500 dark:text-gray-400"
                 datetime={post.data.publishDate}>
-                {getFormattedDate(post.data.publishDate)}
+                <span class="text-sm">
+                  {getFormattedDate(post.data.publishDate)}
+                </span>
               </time>
-              <span>
-                · {Math.round(remarkPluginFrontmatter?.estReadingTime) || "5"} min
-                read
-              </span>
             </div>
           </div>
         </div>
