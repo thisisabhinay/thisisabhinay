@@ -1,19 +1,17 @@
 ---
-import { Image, Picture } from "@astrojs/image/components";
-import Authorcard from "@components/authorcard.astro";
-import Container from "@components/container.astro";
-import Label from "@components/ui/label.astro";
 import { authors } from "@data/authors";
 import { categories } from "@data/category";
-import Base from "@layouts/Base.astro";
-import { getFormattedDate } from "@utils/all";
 import { CollectionEntry, getCollection } from "astro:content";
-
+import { getFormattedDate } from "@utils/all";
+import { Image, Picture } from "@astrojs/image/components";
+import Authorcard from "@components/authorcard.astro";
+import Base from "@layouts/Base.astro";
+import Container from "@components/container.astro";
+import Label from "@components/ui/label.astro";
 import type { Author } from "@data/authors";
 import type { Category } from "@data/category";
 
 type Props = CollectionEntry<"blog">;
-
 export async function getStaticPaths() {
   const blog = await getCollection("blog");
 
