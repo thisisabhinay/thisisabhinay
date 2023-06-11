@@ -118,10 +118,12 @@ const category = categories.find(
         class="mx-auto my-3 prose prose-base dark:prose-invert prose-a:text-blue-600 first-letter:text-6xl first-letter:font-bold first-letter:mr-4 first-letter:float-left">
         <Content />
 
-        <div class="flex flex-wrap items-center w-full gap-3 md:w-auto">
+        <div class="flex flex-wrap items-center w-full gap-3 md:w-auto py-3">
           {
             post.data.tags.map((tag) => (
-              <span class="text-sm text-gray-500">#{tag}</span>
+              <span class="dark:bg-gray-800 bg-gray-100 text-sm text-gray-500 dark:text-gray-400 rounded-full py-1 px-3">
+                #{tag}
+              </span>
             ))
           }
         </div>
