@@ -9,7 +9,7 @@ import Label from "@components/ui/label.astro";
 import type { Author } from "@data/authors";
 import type { Category } from "@data/category";
 
-const { post, aspect, preloadImage } = Astro.props;
+const { post, aspect, preloadImage, showCategory = false } = Astro.props;
 
 const author = authors.find((item) => item.slug === post.data.author) as Author;
 
@@ -48,13 +48,18 @@ const category = categories.find(
     </a>
   </div>
 
-  <a href="#">
-    <Label theme={category.color} slug={category.slug}>{category.title}</Label>
-  </a>
+  {
+    showCategory ? (
+      <Label theme={category.color} slug={category.slug}>
+        {category.title}
+      </Label>
+    ) : null
+  }
   <h2
     class:list={[
-      "mt-2 font-semibold tracking-normal text-brand-primary dark:text-white",
+      "font-semibold tracking-normal text-brand-primary dark:text-white",
       aspect === "landscape" ? "text-3xl" : "text-lg",
+      showCategory ? "mt-2" : "mt-3",
     ]}>
     <a href={"/blog/" + post.slug}>
       <span

@@ -5,7 +5,7 @@ publishDate: "2023-06-10T19:04:25.803Z"
 image: "https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=100"
 category: "essays"
 author: "abhinay"
-draft: true
+draft: false
 tags: [creativity, self-improvement, life]
 ---
 

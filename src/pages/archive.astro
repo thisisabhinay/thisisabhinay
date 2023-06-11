@@ -22,7 +22,11 @@ import { latestPosts } from "@utils/content";
     </Pagetitle>
     <main>
       <div class="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
-        {latestPosts.map((post) => <PostTile post={post} aspect="square" />)}
+        {
+          latestPosts.map((post) => (
+            <PostTile showCategory={true} post={post} aspect="square" />
+          ))
+        }
       </div>
     </main>
   </Container>
