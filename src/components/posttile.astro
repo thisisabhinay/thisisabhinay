@@ -1,17 +1,18 @@
 ---
-import cx from "classnames";
-
-import { Image, Picture } from "@astrojs/image/components";
-import Label from "@components/ui/label.astro";
-import type { Author } from "@data/authors";
 import { authors } from "@data/authors";
-import type { Category } from "@data/category";
 import { categories } from "@data/category";
 import { getFormattedDate } from "@utils/all";
 import { Icon } from "astro-icon";
+import { Image, Picture } from "@astrojs/image/components";
+import cx from "classnames";
+import Label from "@components/ui/label.astro";
+import type { Author } from "@data/authors";
+import type { Category } from "@data/category";
 
 const { post, aspect, preloadImage } = Astro.props;
+
 const author = authors.find((item) => item.slug === post.data.author) as Author;
+
 const category = categories.find(
   (item) => item.slug === post.data.category
 ) as Category;
