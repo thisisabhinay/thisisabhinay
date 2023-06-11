@@ -12,6 +12,6 @@ export const authors: Props[] = [
     name: "Abhinay",
     slug: "abhinay",
     image: "./src/assets/authors/abhinay.svg",
-    bio: "Abhinay is a frontend developer by profession, but also enjoys indulging in his artistic and storytelling hobbies outside of work. He is also an avid gamer.",
+    bio: "Passionate Frontend Engineer · Senior Developer @gohighlevel · Unveiling insights on Design, Web Development, mastering JS, and shaping Software Architecture.",
   },
 ];

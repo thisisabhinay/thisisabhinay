@@ -5,7 +5,7 @@ const { author } = Astro.props;
 ---
 
 <div
-  class="px-8 py-8 mt-3 text-gray-500 rounded-2xl bg-gray-50 dark:bg-gray-900 dark:text-gray-400">
+  class="px-8 py-8 mt-3 text-gray-500 rounded-2xl bg-gray-50 dark:bg-gray-800 dark:text-gray-400">
   <div class="flex flex-wrap items-start gap-3 sm:flex-nowrap sm:gap-6">
     <div class="relative flex-shrink-0 w-24 h-24 mt-1">
       {
@@ -13,8 +13,8 @@ const { author } = Astro.props;
           <Image
             src={author.image}
             alt="Author Photo"
-            width={96}
-            height={96}
+            width={80}
+            height={80}
             loading="eager"
             class="rounded-full"
           />
@@ -28,7 +28,7 @@ const { author } = Astro.props;
         </p>
       </div>
       <div class="mt-3">
-        {author.bio && <p>{author.bio}</p>}
+        {author.bio ? <p>{author.bio}</p> : ""}
       </div>
     </div>
   </div>
