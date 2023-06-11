@@ -1,6 +1,6 @@
 ---
-title: "Digital Expressionism: The Intersection of Technology, Art, and Purpose."
-excerpt: "Explore the fusion of programming, art, and a new purpose in digital products, transcending utility to create a vibrant, expressive internet"
+title: "Digital Expressionism: The Intersection of Technology, Art, and Purpose"
+excerpt: "Explore the fusion of programming, art, and a new purpose in digital products, transcending utility to create a vibrant, expressive internet."
 publishDate: "2023-03-30T18:30:00.000Z"
 image: "https://images.unsplash.com/photo-1619472376731-3ca648a34b69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=100"
 category: "essays"

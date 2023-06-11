@@ -1,6 +1,6 @@
 ---
 title: "Cultivating Conviction: Embracing the Knowledge that You Can"
-excerpt: "In the quest to achieve success, we often overlook the power of our own minds. Our mental attitude and the way we perceive our life can significantly impact the outcomes we experience. In a world…"
+excerpt: "In our quest for success, we often overlook the power of our own minds. Discover the transformative shift from thinking to knowing, unlocking our true potential."
 publishDate: "2023-04-02T18:30:00.000Z"
 image: "https://images.unsplash.com/photo-1615568057392-8f933710de76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=100"
 category: "essays"
