@@ -3,10 +3,10 @@
 ## Hi there 👋, I'm Abhinay 
 
 <a href='https://www.linkedin.com/in/thisisabhinay/'>
-  <img align='left' alt="linkedin" src="https://raw.githubusercontent.com/thisisabhinay/thisisabhinay/master/public/social/linkedin.svg" height='18px'/>
+  <img target="_blank" align='left' alt="linkedin" src="https://raw.githubusercontent.com/thisisabhinay/thisisabhinay/master/public/social/linkedin.svg" height='18px'/>
 </a>
 <a href='https://twitter.com/gamesbyabhinay/'>
-  <img align='left' alt="twitter" src="https://raw.githubusercontent.com/thisisabhinay/thisisabhinay/master/public/social/twitter.svg" height='18px'/>
+  <img target="_blank" align='left' alt="twitter" src="https://raw.githubusercontent.com/thisisabhinay/thisisabhinay/master/public/social/twitter.svg" height='18px'/>
 </a>
 
 <br/>
