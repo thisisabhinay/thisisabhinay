@@ -31,11 +31,11 @@ As a seasoned frontend engineer, I've honed my skills in Vue 3 and React.js to b
 
 ### Languages and Tools
 <div>
-  <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=css" alt="css 3"/>
   <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=astro" alt="astro"/>
   <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=aws" alt="aws"/>
   <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap"/>
   <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=codepen" alt="codepen"/>
+  <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=css" alt="css 3"/>
   <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=cypress" alt="cypress"/>
   <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=d3" alt="d3"/>
   <img style="margin: 8px 8px 0 0" src="https://skillicons.dev/icons?i=figma" alt="figma"/>
