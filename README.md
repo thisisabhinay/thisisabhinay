@@ -28,7 +28,7 @@ where the interface is as considered as the model.
 ### Featured Projects
 
 | Project | What It Is |
-|---------|-----------|
+|:---------|:-----------|
 | [workflow-engine](https://github.com/thisisabhinay/workflow-engine) | Visual workflow orchestration with pluggable nodes and graph validation |
 | [rspack-mfe-platform](https://github.com/thisisabhinay/rspack-mfe-platform) | Production microfrontend platform with federated routing and independent deployment |
 | [connect4-multiplayer](https://github.com/thisisabhinay/connect4-multiplayer) | Real-time multiplayer game with WebSocket state sync and microfrontend architecture |
@@ -40,4 +40,5 @@ where the interface is as considered as the model.
   <a href="https://twitter.com/thisisabhinay">Twitter</a> ·
   <a href="https://abhinaythakur.com">Website</a>
 </p>
+
 
