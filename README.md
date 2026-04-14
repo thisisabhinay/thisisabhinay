@@ -12,16 +12,8 @@ work for humans - especially when the underlying technology is non-deterministic
 
 ### What I'm Working On
 
-**AI product engineering:** Retrieval-augmented generation, evaluation
-pipelines, and the UX challenges of non-deterministic systems. Building at the
-intersection of frontend architecture and AI integration.
-
 **Frontend systems at depth:** Microfrontend platforms, component
 architectures, and the kind of JavaScript/TypeScript that requires understanding
-the engine, not just the framework.
-
-**Full-stack AI tools:** Python backends with React/TypeScript frontends,
-where the interface is as considered as the model.
 
 ---
 
