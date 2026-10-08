@@ -1,23 +1,26 @@
 ## Hey, I'm Abhinay 👋
 
-I am a Senior Software Engineer with more than 9 years of experience. I build complex frontend architecture for AI-native applications, sales engagement tools, and e-commerce platforms. I have worked as a founding frontend engineer at three startup companies.
+I build resilient frontend architectures for AI and data-heavy SaaS platforms. I thrive in the intersection of robust engineering and clean design. Currently, I am highly focused on LLM token streaming, offline-capable workflows using IndexedDB, and scaling micro-frontends without compromising on Core Web Vitals.
 
-### My Engineering Focus
+### What I've built so far
 
-- **AI-Native User Interfaces:** I build systems that stream data from AI models. I use Server-Sent Events (SSE) and fallback polling to show AI text quickly to users.
-- **Complex State Management:** I build local-first applications. For example, I built a workflow sequence builder that uses ReactFlow and IndexedDB (Dexie) in the browser.
-- **Scalable Architecture:** I design micro-frontends and token-based design systems. I focus on code splitting, lazy loading, and system observability to make applications fast and stable.
+- **AI-Native Interfaces:** Building resilient UIs for LLM streaming using Server-Sent Events (SSE) with robust polling fallbacks.
+- **Local-First Architecture:** Designing offline-capable, highly interactive workflows using IndexedDB (Dexie) and typed state machines to eliminate unnecessary server round-trips.
+- **Scalable Frontend Systems:** Architecting micro-frontend platforms that enable independent team releases, significantly faster deployments, and stable performance across massive platform scale.
+- **Performance & Observability:** Optimizing Core Web Vitals (LCP/INP/CLS), implementing aggressive code splitting, and establishing robust frontend monitoring to drastically reduce incident MTTR.
+- **Design Systems & Accessibility:** Architecting token-based design systems with semantic HTML and WCAG compliance baked in by default to reduce design-to-development handoff times.
 
-### Core Technologies I work with
+### Core Technologies
 
-- **Languages:** TypeScript, JavaScript, HTML5, CSS3.
-- **Frameworks:** React, Next.js, Vue.js, Node.js, NestJS.
-- **Tools:** TanStack Query, Zustand, Vite, Webpack, Vitest, Playwright.
+- **Languages & Frameworks:** TypeScript, JavaScript (ES6+), React, Next.js, Vue.js, Node.js, NestJS.
+- **State & Data Fetching:** TanStack Query, Zustand, IndexedDB / Dexie.
+- **Tooling & Testing:** Vite, Webpack, Vitest, Playwright, MSW, Storybook.
+- **Libraries:** ReactFlow, TipTap, AG Grid.
 
-### Connect with Me
+### Let's Connect
 
 <p>
   <a href="https://www.linkedin.com/in/abhinay-thakur/">LinkedIn</a> ·
-  <a href="https://twitter.com/abhinayyy_x">Twitter</a> ·
+  <a href="https://twitter.com/abhinayyy_x">X</a> ·
   <a href="https://abhinaythakur.com">Website</a>
 </p>
